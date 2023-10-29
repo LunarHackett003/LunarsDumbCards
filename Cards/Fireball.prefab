@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   m_Layer: 0
-  m_Name: Bees
+  m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,22 +49,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: The Bees.
-  cardDestription: Oh god, not the bees!
+  cardName: Fireball
+  cardDestription: It's wizard time, motherfucker! Fireball!
   cardStats:
   - positive: 1
-    amount: +10
+    amount: +100
     simepleAmount: 4
-    stat: Projectiles
+    stat: Wizard Time
   - positive: 1
-    amount: +
+    amount: Motherfucker,
     simepleAmount: 0
-    stat: Homing Bullets
-  - positive: 0
-    amount: -50%
-    simepleAmount: 7
-    stat: Damage
-  rarity: 2
+    stat: Fireball!
+  rarity: 0
   cardArt: {fileID: 0}
   sprite: {fileID: 0}
   sourceCard: {fileID: 0}
@@ -73,7 +69,7 @@ MonoBehaviour:
   allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
-  colorTheme: 6
+  colorTheme: 0
 --- !u!114 &114081461618018503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,8 +132,9 @@ MonoBehaviour:
     soundImpactModifierDamageToExplosionHuge: {fileID: 0}
     soundImpactBounce: {fileID: 0}
     soundImpactBullet: {fileID: 0}
-  soundShotModifier: {fileID: 0}
-  soundImpactModifier: {fileID: 0}
+  soundShotModifier: {fileID: 11400000, guid: a039eab371327df48a1a6fd26de8bf95, type: 2}
+  soundImpactModifier: {fileID: 11400000, guid: 092bdce0578570548be081b8fc1490de,
+    type: 2}
   soundDisableRayHitBulletSound: 0
   recoil: 0
   bodyRecoil: 0
@@ -149,10 +146,10 @@ MonoBehaviour:
   isReloading: 0
   damage: 1
   reloadTime: 1
-  reloadTimeAdd: 0.5
+  reloadTimeAdd: 0
   recoilMuiltiplier: 1
-  knockback: 0.5
-  attackSpeed: 1
+  knockback: 1
+  attackSpeed: 2
   projectileSpeed: 1
   projectielSimulatonSpeed: 1
   gravity: 1
@@ -165,7 +162,7 @@ MonoBehaviour:
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
-  numberOfProjectiles: 10
+  numberOfProjectiles: 0
   bursts: 0
   reflects: 0
   smartBounce: 0
@@ -177,8 +174,8 @@ MonoBehaviour:
   dmgMOnBounce: 1
   drag: 0
   dragMinSpeed: 1
-  spread: 0.5
-  evenSpread: 0.8
+  spread: 0
+  evenSpread: 0
   percentageDamage: 0
   cos: 0
   slow: 0
@@ -197,21 +194,21 @@ MonoBehaviour:
   useCharge: 0
   dontAllowAutoFire: 0
   objectsToSpawn:
-  - effect: {fileID: 0}
+  - effect: {fileID: 1817971253521464, guid: b786cd6f39a63264e84952a45eea4c04, type: 3}
     direction: 0
     spawnOn: 0
     spawnAsChild: 0
     numberOfSpawns: 1
-    normalOffset: 0
+    normalOffset: 0.1
     stickToBigTargets: 0
     stickToAllTargets: 0
     zeroZ: 0
-    AddToProjectile: {fileID: 1000215785745924, guid: d2c451eb1045ad44cb41df8f31f94f90,
+    AddToProjectile: {fileID: 1103131869954941351, guid: 9770eefb82f94af45b97427b1cb4047e,
       type: 3}
     removeScriptsFromProjectileObject: 0
-    scaleStacks: 0
-    scaleStackM: 0
-    scaleFromDamage: 0
+    scaleStacks: 1
+    scaleStackM: 0.7
+    scaleFromDamage: 2
     stacks: 0
   projectileColor: {r: 0, g: 0, b: 0, a: 1}
   waveMovement: 0

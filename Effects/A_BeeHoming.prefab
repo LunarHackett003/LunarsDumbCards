@@ -47,8 +47,8 @@ MonoBehaviour:
   soundHomingFound: {fileID: 11400000, guid: cbed8684fe4c2e243a92af9f6a7cf352, type: 2}
   amount: 200
   scalingDrag: 0.05
-  drag: 1
-  spread: 1
+  drag: 2
+  spread: 0.5
   rot1: {fileID: 114096175154433420}
   rot2: {fileID: 114252873112379540}
 --- !u!1 &1189743939107365
