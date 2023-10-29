@@ -45,9 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundHomingFound: {fileID: 11400000, guid: cbed8684fe4c2e243a92af9f6a7cf352, type: 2}
-  amount: 100
-  scalingDrag: 0.1
-  drag: 10
+  amount: 200
+  scalingDrag: 0.05
+  drag: 1
   spread: 1
   rot1: {fileID: 114096175154433420}
   rot2: {fileID: 114252873112379540}

@@ -177,8 +177,8 @@ MonoBehaviour:
   dmgMOnBounce: 1
   drag: 0
   dragMinSpeed: 1
-  spread: 0.5
-  evenSpread: 0
+  spread: 0.1
+  evenSpread: 0.8
   percentageDamage: 0
   cos: 0
   slow: 0
