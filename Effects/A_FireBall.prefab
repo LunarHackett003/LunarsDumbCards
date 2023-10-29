@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn:
   - {fileID: 1809375244147903, guid: 6a7be662ec9835c4fb0462583b63c002, type: 3}
-  - {fileID: 1809375244147903, guid: 6a7be662ec9835c4fb0462583b63c002, type: 3}
+  - {fileID: 1817971253521464, guid: b786cd6f39a63264e84952a45eea4c04, type: 3}
   spawnRot: 0
   inheritScale: 1
   destroyObject: 1

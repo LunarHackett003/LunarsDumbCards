@@ -194,7 +194,7 @@ MonoBehaviour:
   useCharge: 0
   dontAllowAutoFire: 0
   objectsToSpawn:
-  - effect: {fileID: 1817971253521464, guid: b786cd6f39a63264e84952a45eea4c04, type: 3}
+  - effect: {fileID: 1711786085530118, guid: c088553fb25011145a70d2cf30a0e197, type: 3}
     direction: 0
     spawnOn: 0
     spawnAsChild: 0
