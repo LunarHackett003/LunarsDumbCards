@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 114969577739340399}
   - component: {fileID: 114193385136356738}
   m_Layer: 0
-  m_Name: TemplateCard
+  m_Name: SternTalkingTo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,16 +49,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundDisableBlockBasic: 0
-  cardName: 
-  cardDestription: 
-  cardStats: []
-  rarity: 0
+  cardName: A Stern Talking-to
+  cardDestription: '"I''ll show you what for, you little scoundrel!"'
+  cardStats:
+  - positive: 1
+    amount: +50%
+    simepleAmount: 2
+    stat: Knockback
+  - positive: 1
+    amount: +30%
+    simepleAmount: 2
+    stat: Damage
+  rarity: 2
   cardArt: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 5b742d082ddefaa489468fac5e1e3bff, type: 2}
+  sprite: {fileID: 0}
   sourceCard: {fileID: 0}
-  cardColor: {r: 0.10568709, g: 0.18812303, b: 0.23584908, a: 1}
+  cardColor: {r: 0.14509805, g: 0.14509805, b: 0.14509805, a: 1}
   categories: []
-  allowMultiple: 0
+  allowMultiple: 1
   blacklistedCategories: []
   cardBase: {fileID: 1720757555582362, guid: ab7829e25091330408953c12456bfb86, type: 3}
   colorTheme: 0
@@ -124,7 +132,7 @@ MonoBehaviour:
     soundImpactModifierDamageToExplosionHuge: {fileID: 0}
     soundImpactBounce: {fileID: 0}
     soundImpactBullet: {fileID: 0}
-  soundShotModifier: {fileID: 0}
+  soundShotModifier: {fileID: 11400000, guid: 33536c49aa3110f468271587068f3e82, type: 2}
   soundImpactModifier: {fileID: 0}
   soundDisableRayHitBulletSound: 0
   recoil: 0
@@ -135,11 +143,11 @@ MonoBehaviour:
   shootPosition: {fileID: 0}
   player: {fileID: 0}
   isReloading: 0
-  damage: 1
+  damage: 1.3
   reloadTime: 1
   reloadTimeAdd: 0
   recoilMuiltiplier: 1
-  knockback: 1
+  knockback: 1.5
   attackSpeed: 1
   projectileSpeed: 1
   projectielSimulatonSpeed: 1
