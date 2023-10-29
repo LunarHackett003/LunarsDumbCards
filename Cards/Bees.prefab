@@ -165,7 +165,7 @@ MonoBehaviour:
   size: 0
   overheatMultiplier: 0
   timeToReachFullMovementMultiplier: 0
-  numberOfProjectiles: 10
+  numberOfProjectiles: 4
   bursts: 0
   reflects: 0
   smartBounce: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   drag: 0
   dragMinSpeed: 1
   spread: 0.5
-  evenSpread: 0.8
+  evenSpread: 0
   percentageDamage: 0
   cos: 0
   slow: 0

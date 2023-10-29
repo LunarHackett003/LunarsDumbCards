@@ -94,7 +94,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  time: 0.1
+  time: 0.01
   auto: 1
   repeating: 0
   usedTimeScale: 1
