@@ -45,4 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cards:
   - {fileID: 1043437007509817, guid: 6f7337e835516664484f851d69300c63, type: 3}
+  - {fileID: 1043437007509817, guid: 147e55a937a1282458b21a3e589dbab9, type: 3}
+  - {fileID: 1043437007509817, guid: be6e6420c341f574db808810adcbc416, type: 3}
+  - {fileID: 1043437007509817, guid: 92d38e602e3b3da4584433e468ff499c, type: 3}
+  - {fileID: 1043437007509817, guid: a4ed54dcc60bc254eb1d5e5a401f5ae2, type: 3}
+  - {fileID: 1043437007509817, guid: 75e018c6ea7ba644f9ce731b0c4056be, type: 3}
+  - {fileID: 1043437007509817, guid: ae97b4941349cc248bc3fd0a00da6d13, type: 3}
+  - {fileID: 1043437007509817, guid: 7734b48d836e0d8439b3d72bcf5aaab4, type: 3}
   HiddenCards: []
